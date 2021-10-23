@@ -1,0 +1,225 @@
+
+/*
+******************
+*  miscellaneous tags      
+******************
+*/
+.selected a{
+	color: black;
+}
+
+a{
+	color: #7e7e7e;
+	text-decoration: none;
+
+}
+
+a:hover{
+	color: black;
+}
+
+nav li{
+	margin-left: 24px  ;
+}
+
+p{
+	font-size: 13px;
+	line-height: 20px;
+	color: #353535;
+}
+
+
+h1,h3{
+	letter-spacing: -1px;
+}
+
+.main .home h3{
+	font-size: 26px;
+	text-transform: lowercase;
+	border-bottom:1px solid #d1d1d1 ;
+	padding-bottom: 20px;
+	margin-bottom: 12px;
+	line-height: 1em;
+}
+.main blockquote p{
+	font-size: 15px;
+	line-height: 20px;
+	font-style: italic;
+	color: #0e0e0e;
+	position: relative;
+	padding: 5px 18px;
+	text-align: justify;
+}
+
+/*
+******************
+* =header       
+******************
+*/
+
+header h1{
+	background: url(..//images/logo.png) no-repeat;
+	width:174px;
+	height: 23px;
+	text-indent: -9999px;
+	float: left;
+	margin: 10px 10px 22px;
+}
+
+/*
+******************
+*  navigation      
+******************
+*/
+
+.container_24 header nav ul li{
+	display: inline;
+} 
+
+header nav{
+	float: right;
+	margin-bottom: 20px;
+}
+
+nav ul{
+	margin: 12px 20px 8px;
+}
+
+nav a{
+	text-transform: lowercase;
+}
+
+
+/*
+******************
+*  =banner      
+******************
+*/
+.banner{
+	background: url(..//images/Background4.jpg) no-repeat;
+	width: 695px;
+	height: 231px;
+	position: relative;
+	
+	
+
+}
+
+.banner h2{
+	color: white;
+	font-size: 28px;
+	width: 400px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: black;
+	opacity: 60%;
+	margin-bottom: 0px;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+
+
+}
+
+.genbox{
+
+	background-color: #525554;
+    height: 231px;
+    width: 200px;
+}
+
+/*
+******************
+* Footer      
+******************
+*/
+
+footer p{
+	clear: both;
+	border-top: 1px solid #d1d1d1;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+
+/*
+******************
+*  main    
+******************
+*/
+.main{
+	
+	margin-bottom: 20px;
+}
+
+.button {
+	background-color: #656A6B ;
+	color: white;
+	font-size: 11px;
+	padding: 6px;
+ 
+}
+.button:hover{
+	background-color: black;
+	color: white;
+}
+
+.main blockquote p:before,
+.main blockquote p:after{
+    
+    font-size: 40px;
+	color: #bfbfbf;
+	font-style: italic;
+	position: absolute;
+  
+}
+
+.main blockquote p:before{
+	content: '"';
+	top: 6px;
+	left: -2px;
+
+}
+
+.main blockquote p:after{
+	content:'"';
+	bottom: -10px;
+	right: 10px;
+
+}
+
+/*
+******************
+*  work headings    
+******************
+*/
+.work h2,.work h4{
+	font-weight: normal;
+	font-size: 26px;
+}
+
+.work h2{
+	
+	margin-bottom: 0px;
+}
+
+.work h4{
+	color: #787878;
+	margin-top: -6px;
+	line-height: 1em;
+	border-bottom: 1px solid #d1d1d1;
+	margin-bottom: 30px;
+	padding-bottom: 33px;
+}
+
+/*
+******************
+*  work image      
+******************
+*/
+.work img{
+	margin-bottom: 20px;
+}
+
+.main .home{
+	margin-top: 20px;
+}
+
